@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #src/test.sh
-EXPECTED="Hello, Test!"
+EXPECTED="Hello, Test!!"
 OUTPUT=$(node -e "console.log(require('./app')('Test'))")
 
 if [ "$OUTPUT" == "$EXPECTED" ]; then
